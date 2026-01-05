@@ -1,0 +1,177 @@
+✅ REPLIT-OPTIMIZED MASTER PROMPT FOR OG MEDIA
+
+Project Name: OG MEDIA
+Project Type: Full-Stack News Website + Progressive Web App (PWA)
+
+🎯 GOAL
+
+Create a production-ready global news website for a media brand called OG MEDIA.
+The website must automatically fetch real, up-to-date news from the internet, organize it by categories, show trending topics, support user accounts, send push notifications, and be installable as a mobile app.
+
+🧱 TECH STACK (MANDATORY)
+
+Frontend: Next.js (React) + Tailwind CSS
+
+Backend: Node.js (API routes)
+
+Database: PostgreSQL or SQLite (via Prisma)
+
+Auth: Email & password authentication
+
+News Data: Public News APIs (e.g. NewsAPI, GNews, Crypto news APIs)
+
+PWA: Service Workers + Web App Manifest
+
+Hosting Ready: Compatible with Render deployment
+
+🌍 NEWS FEATURES
+News must be REAL and LIVE from the web
+
+Fetch and display news from reliable public APIs.
+
+Categories required:
+
+World News
+
+Nigerian News (local & national)
+
+Crypto & Blockchain News
+
+Sports News (global sports)
+
+Technology
+
+Business & Finance
+
+Entertainment
+
+Each article must show:
+
+Headline
+
+Featured image
+
+Source name
+
+Time published
+
+Short summary
+
+Link to original source
+
+🔥 TRENDING & BREAKING NEWS
+
+Detect trending topics using:
+
+Popular headlines
+
+Frequency of keywords
+
+Show a Trending News section on the homepage
+
+Highlight Breaking News visually
+
+👤 USER ACCOUNTS
+
+Users must be able to:
+
+Sign up & log in
+
+Select preferred news categories
+
+Bookmark articles
+
+View personalized news feeds
+
+🔔 PUSH NOTIFICATIONS
+
+Implement web push notifications
+
+Notify users about:
+
+Breaking news
+
+Trending stories
+
+Selected categories
+
+Notifications must work after installing the app
+
+📱 PWA (INSTALLABLE APP)
+
+Convert the website into a Progressive Web App
+
+Users should be able to:
+
+Install OG MEDIA on Android & iOS
+
+Use it like a native app
+
+Receive push notifications
+
+Include:
+
+Web App Manifest
+
+Service Worker
+
+Offline fallback page
+
+🎨 UI / UX DESIGN
+
+Modern, clean, professional news layout
+
+Mobile-first responsive design
+
+Smooth page transitions and animations
+
+Dark mode & light mode
+
+Card-based news layout
+
+Sticky navbar with category navigation
+
+Design inspiration:
+Google News, Apple News, Bloomberg, Medium
+
+🛠 ADMIN & SCALABILITY
+
+Admin role to manage:
+
+News sources
+
+Categories
+
+SEO optimization for all pages
+
+Clean, readable, well-commented code
+
+Prepared for future:
+
+Ads
+
+Sponsored posts
+
+Video news
+
+🚀 FINAL INSTRUCTIONS
+
+Scaffold the full project structure
+
+Implement backend APIs for news fetching
+
+Build frontend pages for each category
+
+Add authentication & database integration
+
+Enable PWA installation & notifications
+
+Ensure the project can be deployed on Render
+
+Deliver a fully working, production-ready application.
+
+💡 PRO TIP (IMPORTANT FOR REPLIT)
+
+After pasting the prompt, also say this:
+
+“Build this step-by-step. Start by scaffolding the project, then wait for confirmation before adding more features.”

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Modern clean palette - Brand Green */
+  --background: 0 0% 100%;
+  --foreground: 170 100% 10%; /* Very dark green foreground */
+  
+  --primary: 170 100% 15%; /* Deep Teal/Green from logo */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 170 30% 96%;
+  --secondary-foreground: 170 100% 15%;
+  
+  --muted: 170 10% 96%;
+  --muted-foreground: 170 10% 45%;
+  
+  --accent: 170 100% 15%;
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --border: 170 20% 90%;
+  --input: 170 20% 90%;
+  --ring: 170 100% 15%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 170 100% 10%;
+  
+  --radius: 0.75rem;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Playfair Display', serif;
+}
+
+.dark {
+  --background: 170 100% 5%; /* Very deep teal-black */
+  --foreground: 170 20% 98%;
+  
+  --primary: 170 100% 25%;
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 170 50% 15%;
+  --secondary-foreground: 170 20% 98%;
+  
+  --muted: 170 50% 15%;
+  --muted-foreground: 170 20% 65%;
+  
+  --accent: 170 100% 25%;
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --border: 170 50% 15%;
+  --input: 170 50% 15%;
+  --ring: 170 100% 25%;
+  
+  --card: 170 100% 3%;
+  --card-foreground: 170 20% 98%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary/20 selection:text-primary;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
